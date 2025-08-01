@@ -128,11 +128,17 @@ Here’s what it looks like when you run `promptfoo eval` in the terminal:
 
 ---
 
-### Web UI Output
-
-You can also view your results in the browser using `promptfoo eval --ui`:
 
 <img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/promptfoo_2.png?raw=true" width="600"/>
+
+
+### Web UI Output
+
+To see your results displayed like this, click the local URL printed in your terminal after running `promptfoo eval --ui`.
+
+![PromptFoo browser UI](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/results_displayed_in_broswer.png?raw=true)
+
+
 
 
 

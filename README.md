@@ -65,6 +65,21 @@ OPENAI_API_KEY=sk-...your-key-here...
 
 You can generate a key at: [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 
+---
+
+## How Prompts Work in This Project
+
+PromptFoo defines prompts using **template strings with variables**, directly inside the `promptfooconfig.yaml` file.
+
+This is the default behavior when you use `promptfoo init`.
+
+```yaml
+prompts:
+  - "Write a tweet about {{topic}}"
+  - "Write a concise, funny tweet about {{topic}}"
+```
+
+
 
 
 

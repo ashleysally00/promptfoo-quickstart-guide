@@ -172,7 +172,7 @@ To see your results displayed like this, click the local URL printed in your ter
 
 **Total: 10 PASSES, 2 FAILS → 83.33% Pass Rate**
 
-## ⚠Where It Failed
+## Where It Failed
 
 - **Failures occurred with the prompt:** `"Write a tweet about New York City"` (non-funny version)
 - **Reason for failure:** The generated tweets were **descriptive or sentimental** but not **funny**, which violated your LLM rubric assertion: "Ensure that the output is funny"

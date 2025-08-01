@@ -2,29 +2,29 @@
 
 This guide shows how to run the PromptFoo evaluation framework inside **Google Colab**, without needing local setup.
 
-## Why Use Colab Instead of VS Code
+### Why Use Colab Instead of VS Code
 
-### 1. No Local Setup Required
+#### 1. No Local Setup Required
 - No need to install Node.js or set up the CLI locally.
 - Run everything in your browser — great for quick tests or demos.
 
-### 2. Device Flexibility
+#### 2. Device Flexibility
 - Works on any device (Chromebooks, tablets, etc.) without needing dev tools.
 
-### 3. Easy Collaboration
+#### 3. Easy Collaboration
 - Shareable notebooks allow others to reproduce and explore results without setup.
 
-### 4. Track Experiments
+#### 4. Track Experiments
 - Use Markdown + cells to document prompt iterations and results.
 
-### 5. Python Compatibility
+#### 5. Python Compatibility
 - Combine PromptFoo with Python-based scripts, charts, or model outputs.
 
-### 6. Ideal for Work Environments
+#### 6. Ideal for Work Environments
 - Many workplaces restrict local installs, but Colab runs fully in the browser.
 - Avoids software approval or admin permissions needed for global CLI tool
 
-## Limitations
+### Limitations
 
 - **Browser viewer** (`promptfoo view`) doesn't work because `localhost` isn't supported in Colab.
 - You'll view results **in the notebook output**, not a web UI.

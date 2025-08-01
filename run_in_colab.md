@@ -2,6 +2,9 @@
 
 This guide shows how to run the PromptFoo evaluation framework inside **Google Colab**, without needing local setup.
 
+➡️ [Skip to the Quickstart Guide](#-quickstart-in-colab)
+
+
 ### Why Use Colab Instead of VS Code
 
 #### 1. No Local Setup Required

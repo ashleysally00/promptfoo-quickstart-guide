@@ -97,7 +97,25 @@ Write a tweet about avocado toast
 
 Write a concise, funny tweet about avocado toast
 
+## Run the Evaluation
 
+Once your project folder and `.env` file are set up, run the evaluation with:
+
+```bash
+promptfoo eval
+```
+
+This will:
+
+- Load the promptfooconfig.yaml file
+
+- Generate prompts using the defined templates and test variables
+
+- Send each prompt to each model in providers
+
+- Apply any assert rules (e.g., keyword checks or grading)
+
+- Display a results table and summary in the terminal
 
 
 

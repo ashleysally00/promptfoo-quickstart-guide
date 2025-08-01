@@ -96,6 +96,24 @@ os.environ["OPENAI_API_KEY"] = os.environ.get("OPENAI_API_KEY")
 > - Will be lost when the runtime disconnects (e.g., idle timeout, page refresh, or closing the notebook).
 > - Must be re-entered the next time you run the notebook.
 
-
 You will have to re-enter your API key the next time you run the notebook.
+
+### 4. Run the Evaluation
+```
+!promptfoo eval
+```
+You’ll see the pass/fail table and model outputs directly in the cell.
+
+> 💡 **Tip**  
+> In Colab, you’re running everything in-memory — so files like `promptfooconfig.yaml` only persist during that session unless you explicitly save or export them.  
+>  
+> Unlike VS Code, where your YAML lives in your project folder automatically, in Colab:  
+> - You have to create the YAML (which you did via `with open(...)`)  
+> - But unless you download it or save it to Google Drive/GitHub, it’ll be lost after the session ends.  
+>  
+> If you're using this for experimentation or reproducibility, consider:  
+> - Saving your `promptfooconfig.yaml`  
+> - Taking screenshots of evaluation results  
+> - Adding markdown cells with manual notes on prompt quality or failure reasons  
+
 

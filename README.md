@@ -117,6 +117,24 @@ This will:
 
 - Display a results table and summary in the terminal
 
+  
+### Terminal Output
+
+Here’s what it looks like when you run `promptfoo eval` in the terminal:
+
+<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/promptfoo_1.png?raw=true" width="600"/>
+
+---
+
+---
+
+### Web UI Output
+
+You can also view your results in the browser using `promptfoo eval --ui`:
+
+<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/promptfoo_2.png?raw=true" width="600"/>
+
+
 
 
 

@@ -78,6 +78,26 @@ prompts:
   - "Write a tweet about {{topic}}"
   - "Write a concise, funny tweet about {{topic}}"
 ```
+Each {{topic}} is a placeholder that will be replaced with real values defined under the tests: section:
+
+tests:
+  - vars:
+      topic: bananas
+  - vars:
+      topic: avocado toast
+
+PromptFoo will generate every combination of prompt + test variable, then send them to the models listed under providers.
+
+### In this case, the following prompts are generated:
+Write a tweet about bananas
+
+Write a concise, funny tweet about bananas
+
+Write a tweet about avocado toast
+
+Write a concise, funny tweet about avocado toast
+
+
 
 
 

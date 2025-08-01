@@ -140,7 +140,50 @@ To see your results displayed like this, click the local URL printed in your ter
 
 
 
+# Summary of Evaluation
 
+## Models Tested
+- `openai:gpt-4o`
+- `openai:gpt-4o-mini`
+
+## Prompt Templates
+- `"Write a tweet about {{topic}}"`
+- `"Write a concise, funny tweet about {{topic}}"`
+
+## Test Topics
+- `bananas`
+- `avocado toast`
+- `new york city`
+
+## Assertions
+- One used `icontains` (e.g., must include "avocado")
+- One used `javascript` scoring (favor shorter tweets)
+- One used `llm-rubric` to judge funniness
+
+**Total Test Combinations:** 12 (2 models × 2 prompts × 3 topics)
+
+## 📊 Results Breakdown
+
+| Topic | GPT-4o | GPT-4o-mini | Outcome |
+|-------|--------|-------------|---------|
+| **Bananas** | ✅ PASS for both prompts and both models (4 passes) — both models generated accurate, friendly, and funny tweets. |
+| **Avocado Toast** | ✅ PASS for all — models met the requirements (included the word "avocado", were short/funny). |
+| **New York City** | ❌ FAIL on both models for the **non-funny** version of the prompt — failed the **llm-rubric** check. The funny versions **passed**. |
+
+**Total: 10 PASSES, 2 FAILS → 83.33% Pass Rate**
+
+## ⚠Where It Failed
+
+- **Failures occurred with the prompt:** `"Write a tweet about New York City"` (non-funny version)
+- **Reason for failure:** The generated tweets were **descriptive or sentimental** but not **funny**, which violated your LLM rubric assertion: "Ensure that the output is funny"
+- **This shows:** The models do fine with direct or joke-style prompts, but when not nudged toward humor, they miss the "funny" requirement even when it's implied by the test.
+
+## Takeaways
+
+- The **funniness rubric** works well — it accurately flagged serious outputs as failures.
+- **Prompt wording matters**: adding "funny" helps steer models toward the correct tone.
+- **Both models perform similarly**, though GPT-4o responses are slightly more detailed.
+- This simple setup is effective so far for testing tone/creativity, not just factual correctness.
 
 
 

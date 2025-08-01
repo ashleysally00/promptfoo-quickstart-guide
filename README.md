@@ -188,6 +188,21 @@ To see your results displayed like this, click the local URL printed in your ter
 - **Both models perform similarly**, though GPT-4o responses are slightly more detailed.
 - This simple setup is effective so far for testing tone/creativity, not just factual correctness.
 
+  ## 💡 Running in Google Colab Instead
+
+If you want to use PromptFoo without installing anything locally — for example, if you're:
+
+- on a Chromebook or restricted work machine  
+- sharing results with teammates or collaborators  
+- running quick tests without setting up Node.js or the CLI  
+
+Then try running this project in [Google Colab using this quickstart guide](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/run_in_colab.md).
+
+It supports the same evaluations and browser UI — right from your browser.
+
+👉 [Open the Colab Quickstart Guide ›](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/run_in_colab.md)
+
+
 
 
 

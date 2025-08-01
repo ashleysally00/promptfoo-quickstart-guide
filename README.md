@@ -1,6 +1,9 @@
 # PromptFoo Quickstart: Funny Tweet Evaluator
 
-This repo shows how to use PromptFoo to evaluate and compare responses from different LLMs using prompt variations and automated scoring.
+This repo shows how to use PromptFoo to evaluate and compare responses from different LLMs using prompt variations and automated scoring.This version is designed for local use in **VS Code** or another terminal-based environment.
+
+👉 Want to run this in Google Colab? Check out the [Colab Quickstart Guide](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/run_in_colab.md) 
+
 
 This example compares OpenAI's gpt-4o and gpt-4o-mini on their ability to generate funny tweets about different topics.
 

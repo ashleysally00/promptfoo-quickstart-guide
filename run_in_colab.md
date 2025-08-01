@@ -117,6 +117,21 @@ You’ll see the pass/fail table and model outputs directly in the cell.
 > If you're using this for experimentation or reproducibility, consider:  
 > - Saving your `promptfooconfig.yaml`  
 > - Taking screenshots of evaluation results  
-> - Adding markdown cells with manual notes on prompt quality or failure reasons  
+> - Adding markdown cells with manual notes on prompt quality or failure reasons
+
+ ## 💻 Prefer to Run Locally in VS Code?
+
+While Google Colab is great for quick tests and collaboration, you might want to switch to a local setup if:
+
+- You need faster execution without Colab timeouts or usage limits  
+- You're working with larger projects or lots of prompt/test combinations  
+- You want full terminal access to advanced PromptFoo features  
+- You're integrating with local files, scripts, or private APIs  
+- You want to version control everything in one place (e.g., with Git + VS Code)
+
+Check out the [VS Code setup guide and example project](https://github.com/ashleysally00/promptfoo-quickstart-guide#readme) to run PromptFoo locally and unlock its full capabilities.
+
+👉 [Try the local version in VS Code ›](https://github.com/ashleysally00/promptfoo-quickstart-guide#readme)
+
 
 

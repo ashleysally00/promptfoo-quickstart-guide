@@ -202,6 +202,11 @@ It supports the same evaluations and browser UI — right from your browser.
 
 👉 [Open the Colab Quickstart Guide ›](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/run_in_colab.md)
 
+## Resources
+
+- [Official PromptFoo Docs](https://promptfoo.dev/docs)
+- [PromptFoo GitHub Repository](https://github.com/promptfoo/promptfoo)
+
 
 
 

@@ -140,12 +140,12 @@ Here’s what it looks like when you run `promptfoo eval` in the terminal:
 
 
 <p align="center">
-  <img src="images/promptfoo_1.png" width="750" alt="PromptFoo terminal output 1">
+  <img src="images/promptfoo_1.png" width="650" alt="PromptFoo terminal output 1">
 </p>
 
 
 <p align="center">
-  <img src="images/promptfoo_2.png" width="750" alt="PromptFoo terminal output 2">
+  <img src="images/promptfoo_2.png" width="650" alt="PromptFoo terminal output 2">
 </p>
 
 ---
@@ -156,7 +156,7 @@ To see your results displayed like this, click the local URL printed in your ter
 
 
 <p align="center">
-  <img src="images/results_displayed_in_broswer.png" width="750" alt="PromptFoo browser UI">
+  <img src="images/results_displayed_in_broswer.png" width="650" alt="PromptFoo browser UI">
 </p>
 
 

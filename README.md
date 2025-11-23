@@ -1,5 +1,11 @@
 # PromptFoo Quickstart: Funny Tweet Evaluator
 
+<p align="left">
+  <img src="https://img.shields.io/badge/PromptFoo-Quickstart-purple">
+  <img src="https://img.shields.io/badge/OpenAI-gpt4o-blue">
+</p>
+
+
 This repo shows how to use PromptFoo to evaluate and compare responses from different LLMs using prompt variations and automated scoring. This version is designed for local use in **VS Code** or another terminal-based environment.
 
 👉 Want to run this in Google Colab? Check out the [Colab Quickstart Guide](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/run_in_colab.md) 

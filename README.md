@@ -91,14 +91,13 @@ tests:
 
 PromptFoo will generate every combination of prompt + test variable, then send them to the models listed under providers.
 
+
 ### In this case, the following prompts are generated:
-Write a tweet about bananas
+- Write a tweet about bananas  
+- Write a concise, funny tweet about bananas  
+- Write a tweet about avocado toast  
+- Write a concise, funny tweet about avocado toast
 
-Write a concise, funny tweet about bananas
-
-Write a tweet about avocado toast
-
-Write a concise, funny tweet about avocado toast
 
 ## Run the Evaluation
 
@@ -125,6 +124,7 @@ This will:
 
 Here’s what it looks like when you run `promptfoo eval` in the terminal:
 
+
 <p align="center">
   <img src="images/promptfoo_2.png" width="750" alt="PromptFoo terminal output 2">
 </p>
@@ -134,6 +134,7 @@ Here’s what it looks like when you run `promptfoo eval` in the terminal:
 ### Web UI Output
 
 To see your results displayed like this, click the local URL printed in your terminal after running `promptfoo eval --ui`.
+
 
 <p align="center">
   <img src="images/results_displayed_in_broswer.png" width="750" alt="PromptFoo browser UI">
@@ -163,6 +164,7 @@ To see your results displayed like this, click the local URL printed in your ter
 **Total Test Combinations:** 12 (2 models × 2 prompts × 3 topics)
 
 ## 📊 Results Breakdown
+
 
 | Topic | GPT-4o | GPT-4o-mini | Outcome |
 |-------|--------|-------------|---------|

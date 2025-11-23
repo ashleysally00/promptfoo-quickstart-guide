@@ -139,14 +139,22 @@ This will:
 Here’s what it looks like when you run `promptfoo eval` in the terminal:
 
 
-<p align="center">
-  <img src="images/promptfoo_1.png" width="650" alt="PromptFoo terminal output 1">
-</p>
 
+<div align="center">
+  <img src="images/promptfoo_1.png" width="650" alt="PromptFoo test case grid output">
+  <p><em>Figure 1. Terminal results showing PromptFoo evaluations across prompts and topics.</em></p>
+</div>
 
-<p align="center">
-  <img src="images/promptfoo_2.png" width="650" alt="PromptFoo terminal output 2">
-</p>
+<br>
+
+Below are sample results from running the evaluation:
+
+<br>
+
+<div align="center">
+  <img src="images/promptfoo_2.png" width="650" alt="PromptFoo token usage breakdown">
+  <p><em>Figure 2. Token usage summary and model breakdown from PromptFoo.</em></p>
+</div>
 
 ---
 

@@ -60,7 +60,7 @@ To use these models, you need an API key from the provider. This example uses **
 
 You can add the key in a `.env` file, which PromptFoo automatically reads when running tests.
 
-Create a `.env` file in your project root and add this ro your .env file:
+Create a `.env` file in your project root and add this to your .env file:
 
 ```
 OPENAI_API_KEY=sk-...your-key-here...
@@ -130,12 +130,6 @@ Here’s what it looks like when you run `promptfoo eval` in the terminal:
 </p>
 
 ---
-
-<p align="center">
-  <img src="images/promptfoo_2.png" width="750" alt="PromptFoo terminal output 2">
-</p>
-
-
 
 ### Web UI Output
 

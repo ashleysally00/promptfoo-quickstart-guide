@@ -125,22 +125,25 @@ This will:
 
 Here’s what it looks like when you run `promptfoo eval` in the terminal:
 
-<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/images/promptfoo_1.png?raw=true" width="600"/>
+<p align="center">
+  <img src="images/promptfoo_2.png" width="750" alt="PromptFoo terminal output 2">
+</p>
 
 ---
 
----
+<p align="center">
+  <img src="images/promptfoo_2.png" width="750" alt="PromptFoo terminal output 2">
+</p>
 
-
-<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/images/promptfoo_2.png?raw=true" width="600"/>
 
 
 ### Web UI Output
 
 To see your results displayed like this, click the local URL printed in your terminal after running `promptfoo eval --ui`.
 
-![PromptFoo browser UI](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/results_displayed_in_broswer.png?raw=true)
-
+<p align="center">
+  <img src="images/results_displayed_in_broswer.png" width="750" alt="PromptFoo browser UI">
+</p>
 
 
 # Summary of Evaluation

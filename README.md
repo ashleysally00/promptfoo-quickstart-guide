@@ -5,6 +5,14 @@
   <img src="https://img.shields.io/badge/OpenAI-gpt4o-blue">
 </p>
 
+## Table of Contents
+- [Setup Instructions](#setup-instructions)
+- [How Prompts Work](#how-prompts-work-in-this-project)
+- [Run the Evaluation](#run-the-evaluation)
+- [Summary of Evaluation](#summary-of-evaluation)
+- [Running in Google Colab](#running-in-google-colab-instead)
+
+
 
 This repo shows how to use PromptFoo to evaluate and compare responses from different LLMs using prompt variations and automated scoring. This version is designed for local use in **VS Code** or another terminal-based environment.
 
@@ -198,7 +206,7 @@ To see your results displayed like this, click the local URL printed in your ter
 - **Both models perform similarly**, though GPT-4o responses are slightly more detailed.
 - This simple setup is effective so far for testing tone/creativity, not just factual correctness.
 
-## 💡 Running in Google Colab Instead
+## Running in Google Colab Instead
 
 If you want to use PromptFoo without installing anything locally — for example, if you're:
 

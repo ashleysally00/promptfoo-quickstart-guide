@@ -164,7 +164,7 @@ To see your results displayed like this, click the local URL printed in your ter
 
 
 <p align="center">
-  <img src="images/results_displayed_in_broswer.png" width="650" alt="PromptFoo browser UI">
+  <img src="images/results_displayed_in_browser.png" width="650" alt="PromptFoo browser UI">
 </p>
 
 

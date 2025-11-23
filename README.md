@@ -1,6 +1,6 @@
 # PromptFoo Quickstart: Funny Tweet Evaluator
 
-This repo shows how to use PromptFoo to evaluate and compare responses from different LLMs using prompt variations and automated scoring.This version is designed for local use in **VS Code** or another terminal-based environment.
+This repo shows how to use PromptFoo to evaluate and compare responses from different LLMs using prompt variations and automated scoring. This version is designed for local use in **VS Code** or another terminal-based environment.
 
 👉 Want to run this in Google Colab? Check out the [Colab Quickstart Guide](https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/run_in_colab.md) 
 
@@ -126,6 +126,11 @@ Here’s what it looks like when you run `promptfoo eval` in the terminal:
 
 
 <p align="center">
+  <img src="images/promptfoo_1.png" width="750" alt="PromptFoo terminal output 1">
+</p>
+
+
+<p align="center">
   <img src="images/promptfoo_2.png" width="750" alt="PromptFoo terminal output 2">
 </p>
 
@@ -187,7 +192,7 @@ To see your results displayed like this, click the local URL printed in your ter
 - **Both models perform similarly**, though GPT-4o responses are slightly more detailed.
 - This simple setup is effective so far for testing tone/creativity, not just factual correctness.
 
-  ## 💡 Running in Google Colab Instead
+## 💡 Running in Google Colab Instead
 
 If you want to use PromptFoo without installing anything locally — for example, if you're:
 

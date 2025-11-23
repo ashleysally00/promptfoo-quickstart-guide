@@ -125,14 +125,14 @@ This will:
 
 Here’s what it looks like when you run `promptfoo eval` in the terminal:
 
-<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/promptfoo_1.png?raw=true" width="600"/>
+<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/images/promptfoo_1.png?raw=true" width="600"/>
 
 ---
 
 ---
 
 
-<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/promptfoo_2.png?raw=true" width="600"/>
+<img src="https://github.com/ashleysally00/promptfoo-quickstart-guide/blob/main/images/promptfoo_2.png?raw=true" width="600"/>
 
 
 ### Web UI Output

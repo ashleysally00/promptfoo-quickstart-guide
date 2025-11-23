@@ -10,7 +10,7 @@
 - [How Prompts Work](#how-prompts-work-in-this-project)
 - [Run the Evaluation](#run-the-evaluation)
 - [Summary of Evaluation](#summary-of-evaluation)
-- [Running in Google Colab](#running-in-google-colab-instead)
+- [Running in Google Colab Instead](#running-in-google-colab-instead)
 
 
 
